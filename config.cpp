@@ -125,6 +125,9 @@ class cfgVehicles
 		hasGunner = true;
 		driverAction = "UH1Y_Pilot";
 		driverInAction = "UH1Y_Pilot";
+		forceHideDriver = 1;
+		forceHideCommadner = 1;
+		forceHideGunner = 1;
 		cargoAction[] = {"UH1Y_Cargo02", "UH1Y_Cargo03", "UH1Y_Cargo03", "UH1Y_Cargo02", "UH1Y_Cargo01", "UH1Y_Cargo03", "UH1Y_Cargo01", "UH1Y_Cargo02", "UH1Y_Cargo03", "UH1Y_Cargo03", "UH1Y_Cargo02", "UH1Y_Cargo01", "UH1Y_Cargo03", "UH1Y_Cargo01", "UH1Y_Cargo02", "UH1Y_Cargo03", "UH1Y_Cargo03", "UH1Y_Cargo02", "UH1Y_Cargo01", "UH1Y_Cargo03", "UH1Y_Cargo01", "UH1Y_Cargo02", "UH1Y_Cargo03", "UH1Y_Cargo03", "UH1Y_Cargo02", "UH1Y_Cargo01", "UH1Y_Cargo03", "UH1Y_Cargo01"};
 		memoryPointsGetInCargo = "pos cargo";
 		memoryPointsGetInCargoDir = "pos cargo dir";
