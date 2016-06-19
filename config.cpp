@@ -422,7 +422,7 @@ class cfgVehicles
 		nameSound = "chopper";
 		extCameraPosition[] = {0, 2.5, -25};
 		soundEngine[] = {"\ou_air\sound\ch46engine.wss", 1, 1.000000};
-		armor = 75;
+		armor = 85;
 		cost = 10000000;
 		maxSpeed = 200;
 		crew = "B_helicrew_F";
