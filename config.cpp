@@ -74,12 +74,54 @@ class cfgVehicles
 	class Helicopter : Air
 	{
 		class HitHull;
+		{
+			armor = 0.30;			
+			material = -1;			
+			name = "hull_hit";			
+			visual = "hull_hit";			
+			passThrough = 0.20;			
+			minimalHit = 0.05;			
+			explosionShielding = 0;			
+			radius = 0.50;	
+		};
 		class HitEngine;
+		{
+			armor = 0.6;			
+			material = -1;			
+			name = "engine_hit";			
+			passThrough = 0;			
+			minimalHit = 0.12;			
+			explosionShielding = 1;			
+			radius = 0.25;		
+		};
 		class HitAvionics;
+		
 		class HitVRotor;
+		{
+			armor = 0.26;			
+			material = -1;			
+			name = "VRotor_Hit";			
+			visual = "VRotor_Hit";			
+			passThrough = 0;			
+			minimalHit = 0.2;			
+			explosionShielding = 0;			
+			radius = 0.36;			
+		};
 		class HitHRotor;
+		{
+			armor = 0.2;			
+			material = -1;			
+			name = "HRotor_Hit";			
+			visual = "HRotor_Hit";			
+			passThrough = 0;			
+			minimalHit = 0.02;			
+			explosionShielding = 4;			
+			radius = 0.36;			
+		};	
 		class HitMissiles;
+		
 		class HitRGlass;
+		
 		class HitLGlass;
 		
 		class ViewPilot : ViewPilot {};
