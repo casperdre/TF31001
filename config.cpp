@@ -74,54 +74,12 @@ class cfgVehicles
 	class Helicopter : Air
 	{
 		class HitHull;
-		{
-			armor = 0.30;			
-			material = -1;			
-			name = "hull_hit";			
-			visual = "hull_hit";			
-			passThrough = 0.20;			
-			minimalHit = 0.05;			
-			explosionShielding = 0;			
-			radius = 0.50;	
-		};
 		class HitEngine;
-		{
-			armor = 0.6;			
-			material = -1;			
-			name = "engine_hit";			
-			passThrough = 0;			
-			minimalHit = 0.12;			
-			explosionShielding = 1;			
-			radius = 0.25;		
-		};
 		class HitAvionics;
-		
 		class HitVRotor;
-		{
-			armor = 0.26;			
-			material = -1;			
-			name = "VRotor_Hit";			
-			visual = "VRotor_Hit";			
-			passThrough = 0;			
-			minimalHit = 0.2;			
-			explosionShielding = 0;			
-			radius = 0.36;			
-		};
 		class HitHRotor;
-		{
-			armor = 0.2;			
-			material = -1;			
-			name = "HRotor_Hit";			
-			visual = "HRotor_Hit";			
-			passThrough = 0;			
-			minimalHit = 0.02;			
-			explosionShielding = 4;			
-			radius = 0.36;			
-		};	
 		class HitMissiles;
-		
 		class HitRGlass;
-		
 		class HitLGlass;
 		
 		class ViewPilot : ViewPilot {};
@@ -422,8 +380,8 @@ class cfgVehicles
 		nameSound = "chopper";
 		extCameraPosition[] = {0, 2.5, -25};
 		soundEngine[] = {"\ou_air\sound\ch46engine.wss", 1, 1.000000};
-		armor = 85;
-		cost = 1000000;
+		armor = 100;
+		cost = 10000000;
 		maxSpeed = 200;
 		crew = "B_helicrew_F";
 		typicalCargo[] = {"B_helicrew_F", "B_helicrew_F", "B_helicrew_F", "B_helicrew_F"};
@@ -450,10 +408,10 @@ class cfgVehicles
 		minBackRotorDive = -10;
 		maxBackRotorDive = 6;
 		neutralBackRotorDive = -2.6;
-		gearRetracting = 0;
-		gearUpTime = 0;
-		gearDownTime = 0;
-		landingSpeed = 0.0;
+		gearRetracting = 1;
+		gearUpTime = 3.33;
+		gearDownTime = 2.0;
+		landingSpeed = 50.0;
 		crewVulnerable = 1.5;
 		selectionFireAnim = "muzzleflash";
 		damageResistance = 0.000393;
